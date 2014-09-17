@@ -123,15 +123,10 @@
 		F5FB0E4219C9AA4B000F28BB /* ControllingSource */ = {
 			isa = PBXGroup;
 			children = (
+				F5FB0E7919C9C759000F28BB /* Resources */,
+				F5FB0E7819C9C748000F28BB /* ViewControllers */,
 				F5FB0E4B19C9AA4B000F28BB /* AppDelegate.h */,
 				F5FB0E4C19C9AA4B000F28BB /* AppDelegate.m */,
-				F5FB0E4E19C9AA4B000F28BB /* Main.storyboard */,
-				F5FB0E5419C9AA4B000F28BB /* MasterViewController.h */,
-				F5FB0E5519C9AA4B000F28BB /* MasterViewController.m */,
-				F5FB0E5719C9AA4B000F28BB /* DetailViewController.h */,
-				F5FB0E5819C9AA4B000F28BB /* DetailViewController.m */,
-				F5FB0E5A19C9AA4B000F28BB /* Images.xcassets */,
-				F5FB0E5119C9AA4B000F28BB /* ControllingSource.xcdatamodeld */,
 				F5FB0E4319C9AA4B000F28BB /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -164,6 +159,27 @@
 				F5FB0E6B19C9AA4B000F28BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5FB0E7819C9C748000F28BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB0E5419C9AA4B000F28BB /* MasterViewController.h */,
+				F5FB0E5519C9AA4B000F28BB /* MasterViewController.m */,
+				F5FB0E5719C9AA4B000F28BB /* DetailViewController.h */,
+				F5FB0E5819C9AA4B000F28BB /* DetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F5FB0E7919C9C759000F28BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB0E4E19C9AA4B000F28BB /* Main.storyboard */,
+				F5FB0E5A19C9AA4B000F28BB /* Images.xcassets */,
+				F5FB0E5119C9AA4B000F28BB /* ControllingSource.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
